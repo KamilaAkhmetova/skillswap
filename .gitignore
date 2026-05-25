@@ -1,0 +1,38 @@
+# Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.log
+db.sqlite3
+.DS_Store
+
+# Django
+*.pot
+*.mo
+local_settings.py
+
+# Node / Angular
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+.tmp/
+.angular/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+.secret
+*.key
+
+# OS
+Thumbs.db
+Desktop.ini
