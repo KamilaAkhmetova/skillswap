@@ -1,6 +1,0 @@
-<form [formGroup]="form" (ngSubmit)="onSubmit()">
-  <input formControlName="username" placeholder="Username" />
-  <input formControlName="password" type="password" placeholder="Password" />
-  <button type="submit" [disabled]="form.invalid">Войти</button>
-  <p *ngIf="errorMessage">{{ errorMessage }}</p>
-</form>
